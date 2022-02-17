@@ -1,0 +1,75 @@
+/* Default Styles Start */
+:root {
+    --primary-color: #461E52;
+    --secondary-color: #DD517F;
+    --tertiary-color: #E68E36;
+    --quarternary-color: #556DC8;
+    --quintiary-color: #7998EE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Default Styles End */
+
+/* Body Styles Start */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--quarternary-color);
+}
+/* Body Styles End */
+
+/* Header Styles Start*/
+header {
+    display: flex;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+
+}
+/* Header Styles End */
+
+/* Media Queries Start*/
+/* Smaller Desktops and Smaller */
+@media screen and (max-width: 980px) {
+
+}
+
+/* Tablets and smaller */
+@media screen and (max-width: 768px) {
+
+}
+
+/* mobile phones and smaller */
+@media screen and (max-width: 575px) {
+
+}

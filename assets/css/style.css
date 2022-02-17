@@ -21,6 +21,17 @@ body {
     color: var(--quarternary-color);
     margin: 10px;
 }
+
+body div {
+    border: 5px solid green;
+    margin: 2px;
+
+}
+
+body section {
+    border: 5px solid orange;
+    margin: 2px;
+}
 /* Body Styles End */
 
 /* Header Styles Start*/

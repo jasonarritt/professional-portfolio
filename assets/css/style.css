@@ -17,7 +17,7 @@
 /* Body Styles Start */
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: var(--quarternary-color);
+    color: var(--quarternary-color);
 }
 /* Body Styles End */
 

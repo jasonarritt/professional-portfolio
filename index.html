@@ -29,7 +29,7 @@
                     <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#my-resume">My Resume</a>
+                    <a href="./resume.html">My Resume</a>
                 </li>
             </ul>
         <!-- Navigation End -->
@@ -38,52 +38,63 @@
     </header>
 
     <!-- Hero Start -->
-    <div class="hero">
+    <section class="hero">
         <h3>Aspiring Web Dveloper</h3>
     <!-- Hero End -->
-    </div>
+    </section>
 
     <!-- About Me start -->
-    <div id="about-me">
+    <section id="about-me">
         <h2>About Me</h2>
-        <p>
-            Originally from Southern California, I joined the Army at age 23 and was brought to North Carolina. I spent the following 5 years as an infantryman in the 82nd Airborne Division at Fort Bragg until early 2018 and then transferred from active duty to the North Carolina National Guard. Once off active duty military status I was accepted into Cisco's Veteran Talent Incubation Program, during which I earned my CCNA through self study. Following completion of the program I began my time with Cisco as a Technical Consulting Engineer for SD-WAN.
-        </p>
-        <p>
-            My wife of 5 years and I live in Raleigh with our 3 dogs, two of which are German Shepherds and the other is the one and only Daisy.
-        </p>
+        <article class="profile">
+            
+                <img class="section-image" src="./assets/images/LinkedInProfilePic.jpg" alt="Jason wearing a blue collared shirt and smiling">
+
+                <p class="section-content">
+                    Originally from Southern California, I joined the Army at age 23 and was brought to North Carolina. I spent the following 5 years as an infantryman in the 82nd Airborne Division at Fort Bragg until early 2018 and then transferred from active duty to the North Carolina National Guard. Once off active duty military status I was accepted into Cisco's Veteran Talent Incubation Program, during which I earned my CCNA through self study. Following completion of the program I began my time with Cisco as a Technical Consulting Engineer for SD-WAN.
+                </p>
+                <p class="section-content">
+                    My wife of 5 years and I live in Raleigh with our 3 dogs, two of which are German Shepherds and the other is the one and only Daisy.
+                </p>
+            
+        </article>
     <!-- About Me End -->
-    </div>
+    </section>
 
     <!-- My Work Start -->
-    <div id="my-work">
+    <section id="my-work">
         <h2>My Work</h2>
         <!-- Highlight Work Start -->
-            <section id="highlight-work">
-                <div class="main-work">
-                    <!-- Run Buddy Start -->
-                    <section id="run-buddy">
-                        <h3>Run Buddy</h3>
-                    </section>
-                </div>
-            </section>
+            <div id="highlight-work">
+                <!-- Run Buddy Start -->
+                <a href="https://jasonarritt.github.io/run-buddy/" target="_blank">
+                    <article id="run-buddy"  class="main-work">
+                        <div>
+                            <h3>Run Buddy</h3>
+                        </div>
+                        
+                    </article>
+                </a>
+            </div>
 
             <!-- Secondary Work Start -->
-            <section id="secondary-work">
-                <div class="back-work">
-                    <!-- Horiseon Start -->
-                    <section id="horiseon">
-                        <h3>Horiseon</h3>
-                    </section>
-                </div>
-            </section>
+            <div id="secondary-work">
+                <!-- Horiseon Start -->
+                <a href="https://jasonarritt.github.io/week-one-challenge-horiseon/" target="_blank">
+                    <article id="horiseon" class="back-work">
+                        <div>
+                            <h3>Horiseon</h3>
+                        </div>
+                    </article>
+                </a>
+            </div>
     <!-- My Work End -->
-    </div>
+    </section>
 
     <!-- Contact Me Start -->
-    <div id="contact-me">
+    <section id="contact-me">
         <h2>Contact Me</h2>
-        <section id="my-links">
+        <div id="my-links">
             <h3>My Links</h3>
             <div id="git-hub">
                 <h4><a href="https://github.com/jasonarritt" target="_blank">Git Hub</a></h4>
@@ -92,30 +103,25 @@
                 <h4><a href="https://www.linkedin.com/in/jasonarritt/" target="_blank">LinkedIn</a></h4>
             </div>
             
-        </section>
-        <section id="my-info">
+        </div>
+        <div id="my-info">
             <h3>My Information</h3>
             <p id="my-email">
                 Email: <a href="mailto:jason.a.arritt@gmail.com" target="_blank">jason.a.arritt@gmail.com </a>
             </p>
-        </section>
-        <section id="message-form">
+        </div>
+        <div id="message-form">
             <h3>Leave a Message</h3>
             <form action="">
                 <label for="contact-name">Please Leave Your Name</label>
-                <input type="text" id="contact-name" placeholder="Your Name"><br />
+                <input type="text" id="contact-name" placeholder="Your Name">
                 <label for="contact-message">Please Leave You Message</label>
                 <textarea  id="contact-message" placeholder="Your Message" cols="30" rows="10"></textarea>
                 <button type="submit">Send Message</button>
             </form>
-        </section>
+        </div>
     <!-- Contact Me End -->
-    </div>
-
-    <!-- My Resume Start -->
-    <div id="my-resume">
-        <a href="./resume.html"><h2>My Resume</h2></a>
-    </div>
+    </section>
 
 </body>
 </html>

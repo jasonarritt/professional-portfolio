@@ -23,6 +23,8 @@ body {
 }
 
 body div {
+    display : flex;
+    flex-wrap: wrap;
     border: 5px solid green;
     margin: 2px;
 
@@ -30,6 +32,11 @@ body div {
 
 body section {
     border: 5px solid orange;
+    margin: 2px;
+}
+
+body article {
+    border: 5px solid blue;
     margin: 2px;
 }
 /* Body Styles End */
@@ -70,6 +77,31 @@ header nav ul li a {
 
 }
 /* Header Styles End */
+
+
+/* Hero Styles Start*/
+
+/* Hero Styles End */
+
+/* My Work Styles Start*/
+.main-work {
+    width: 80%;
+}
+
+#run-buddy {
+    background-image: url(../images/run-buddy.png);
+}
+
+.back-work {
+    width: 40%;
+    padding: 350px 700px 50px 100px;
+}
+
+#horiseon {
+    background-image: url(../images/horiseon.png);
+}
+/* My Work Styles End */
+
 
 /* Media Queries Start*/
 /* Smaller Desktops and Smaller */

@@ -128,20 +128,16 @@ header nav ul li a:hover {
 
 /* Main-Section Styles Start */
 .main-section {
-    margin: 25px auto;
-    padding-bottom: 20px;
-    width: 90%;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
+    padding: 5px 0;
 }
 
 .main-section h2 {
-    width: 20%;
     color: var(--tertiary-color);
     font-size: 36px;
-    flex: 1 30%;
     display: inline-block;
+    padding-right: 40px;
 }
 
 .secondary-section {
@@ -154,7 +150,7 @@ header nav ul li a:hover {
 /* About Me Styles Start*/
 .profile-image {
     flex: 1 12%;
-    margin-right: 20px;}
+}
 
 .profile-image img {
     max-width: 50%;
@@ -166,6 +162,7 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
     flex: 2 70%;
+    padding: 5px;
 }
 
 .section-text {

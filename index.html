@@ -39,38 +39,43 @@
 
     <!-- Hero Start -->
     <section class="hero">
-        <h3>Aspiring Web Dveloper</h3>
+        <div class="hero-text">
+            <h3>Aspiring Web Dveloper</h3>
+        </div>
     <!-- Hero End -->
     </section>
 
     <!-- About Me start -->
-    <section id="about-me">
-        <h2>About Me</h2>
-        <article class="profile">
-            
-                <img class="section-image" src="./assets/images/LinkedInProfilePic.jpg" alt="Jason wearing a blue collared shirt and smiling">
+    <section id="about-me" class="main-section">
+        <h2 class="main-section-header">About Me</h2>
 
-                <p class="section-content">
+        <article class="profile flex-row">
+            <div class="profile-image">    
+                <img src="./assets/images/LinkedInProfilePic.jpg" alt="Jason wearing a blue collared shirt and smiling">
+            </div>
+            <div class="section-content">
+                <p class="section-text">
                     Originally from Southern California, I joined the Army at age 23 and was brought to North Carolina. I spent the following 5 years as an infantryman in the 82nd Airborne Division at Fort Bragg until early 2018 and then transferred from active duty to the North Carolina National Guard. Once off active duty military status I was accepted into Cisco's Veteran Talent Incubation Program, during which I earned my CCNA through self study. Following completion of the program I began my time with Cisco as a Technical Consulting Engineer for SD-WAN.
                 </p>
-                <p class="section-content">
+                <p class="section-text">
                     My wife of 5 years and I live in Raleigh with our 3 dogs, two of which are German Shepherds and the other is the one and only Daisy.
                 </p>
-            
+            </div>
         </article>
     <!-- About Me End -->
     </section>
 
     <!-- My Work Start -->
-    <section id="my-work">
-        <h2>My Work</h2>
+    <section id="my-work" class="main-section flex-row">
+        <h2 class="main-section-header">My Work</h2>
         <!-- Highlight Work Start -->
-            <div id="highlight-work">
+            <div id="highlight-work" class="secondary-section flex-row">
                 <!-- Run Buddy Start -->
                 <a href="https://jasonarritt.github.io/run-buddy/" target="_blank">
                     <article id="run-buddy"  class="main-work">
                         <div>
                             <h3>Run Buddy</h3>
+                            <p>HTML / CSS</p>
                         </div>
                         
                     </article>
@@ -78,12 +83,13 @@
             </div>
 
             <!-- Secondary Work Start -->
-            <div id="secondary-work">
+            <div id="secondary-work" class="secondary-section flex-row">
                 <!-- Horiseon Start -->
                 <a href="https://jasonarritt.github.io/week-one-challenge-horiseon/" target="_blank">
                     <article id="horiseon" class="back-work">
                         <div>
                             <h3>Horiseon</h3>
+                            <p>HTML / CSS</p>
                         </div>
                     </article>
                 </a>
@@ -92,8 +98,8 @@
     </section>
 
     <!-- Contact Me Start -->
-    <section id="contact-me">
-        <h2>Contact Me</h2>
+    <section id="contact-me" class="main-section">
+        <h2 class="main-section-header">Contact Me</h2>
         <div id="my-links">
             <h3>My Links</h3>
             <div id="git-hub">
@@ -102,15 +108,16 @@
             <div id="linked-in">
                 <h4><a href="https://www.linkedin.com/in/jasonarritt/" target="_blank">LinkedIn</a></h4>
             </div>
-            
         </div>
+
         <div id="my-info">
             <h3>My Information</h3>
             <p id="my-email">
                 Email: <a href="mailto:jason.a.arritt@gmail.com" target="_blank">jason.a.arritt@gmail.com </a>
             </p>
         </div>
-        <div id="message-form">
+
+        <div id="message-form" class="form">
             <h3>Leave a Message</h3>
             <form action="">
                 <label for="contact-name">Please Leave Your Name</label>

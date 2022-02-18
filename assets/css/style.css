@@ -3,23 +3,29 @@
     --primary-color: #461E52;
     --secondary-color: #DD517F;
     --tertiary-color: #E68E36;
-    --quarternary-color: #556DC8;
-    --quintiary-color: #7998EE;
+    --quaternary-color: #556DC8;
+    --quinary-color: #7998EE;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-image: url(../images/hero-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 999; */
 }
 /* Default Styles End */
 
 /* Body Styles Start */
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: var(--quarternary-color);
+    color: var(--quaternary-color);
 }
-
+/* 
 body div {
     display : flex;
     flex-wrap: wrap;
@@ -36,7 +42,7 @@ body section {
 body article {
     border: 5px solid blue;
     margin: 2px;
-}
+} */
 /* Body Styles End */
 
 /* Header Styles Start*/
@@ -51,8 +57,8 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    /* background-position: 80%;
-    z-index: 999; */
+    background-position: 80%;
+    z-index: 999;
 }
 
 header h1 {
@@ -83,18 +89,98 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    /* font-size: 1.6vw; */
+    font-size: 1.6vw;
+}
+
+header nav ul li a:hover {
+    background: var(--tertiary-color);
+    color: var(--quaternary-color);
+    border-radius: 20px;
+    text-shadow: none;
 }
 /* Header Styles End */
 
 
 /* Hero Styles Start*/
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(../images/hero-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding-bottom: 20px;
+}
 
+.hero-text div {
+    width: 10%;
+    margin: 0.5% 3.5%;
+    color: #fff;
+    font-size: 10px;
+}
+
+.hero-text h3 {
+    font-size: 20px;
+    color: var(--tertiary-color);
+}
 /* Hero Styles End */
+
+/* Main-Section Styles Start */
+.main-section {
+    margin: 25px auto;
+    padding-bottom: 20px;
+    width: 90%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+.main-section h2 {
+    width: 20%;
+    color: var(--tertiary-color);
+    font-size: 36px;
+    flex: 1 30%;
+    display: inline-block;
+}
+
+.secondary-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* Main-Section Styles End */
+
+/* About Me Styles Start*/
+.profile-image {
+    flex: 1 12%;
+    margin-right: 20px;}
+
+.profile-image img {
+    max-width: 50%;
+    border-radius: 30%;
+}
+
+.section-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 2 70%;
+}
+
+.section-text {
+    /* flex: 12; */
+}
+/* About Me Styles End */
+
 
 /* My Work Styles Start*/
 .main-work {
     width: 80%;
+    padding: 350px 700px 50px 100px;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
 }
 
 #run-buddy {
@@ -103,7 +189,10 @@ header nav ul li a {
 
 .back-work {
     width: 40%;
-    padding: 350px 700px 50px 100px;
+    padding: 175px 350px 25px 100px;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
 }
 
 #horiseon {
@@ -111,6 +200,45 @@ header nav ul li a {
 }
 /* My Work Styles End */
 
+/* Contact Me Styles Start*/
+.form input, .form textarea{
+border: 1px solid var(--secondary-color);
+display: block;
+padding: 7px 15px;
+font-size: 16px;
+background-color: rgba(255, 255, 255, 0.75);
+width: 100%;
+margin-bottom: 15px;
+margin-top: 5px;
+border-radius: 20%;
+}
+
+.form input:focus, .form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+.form button {
+    width: 100%;
+    border: none;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 16px;
+    border-radius: 20%;
+}
+
+.form button:hover {
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+}
+
+/* Contact Me Styles End */
+
+.flex-row {
+    display: flex;
+}
 
 /* Media Queries Start*/
 /* Smaller Desktops and Smaller */

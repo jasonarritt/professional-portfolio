@@ -11,12 +11,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-image: url(../images/hero-background.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 999; */
 }
 /* Default Styles End */
 
@@ -25,24 +19,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--quaternary-color);
 }
-/* 
-body div {
-    display : flex;
-    flex-wrap: wrap;
-    border: 5px solid green;
-    margin: 2px;
 
-}
-
-body section {
-    border: 5px solid orange;
-    margin: 2px;
-}
-
-body article {
-    border: 5px solid blue;
-    margin: 2px;
-} */
 /* Body Styles End */
 
 /* Header Styles Start*/
@@ -138,6 +115,7 @@ header nav ul li a:hover {
     font-size: 36px;
     display: inline-block;
     padding-right: 40px;
+    text-align: center;
 }
 
 .secondary-section {
@@ -218,8 +196,8 @@ border-radius: 20%;
 .form button {
     width: 100%;
     border: none;
-    background: var(--primary-color);
-    color: var(--secondary-color);
+    background: var(--quaternary-color);
+    color: var(--tertiary-color);
     text-align: center;
     padding: 15px 5px;
     font-size: 16px;
@@ -235,6 +213,17 @@ border-radius: 20%;
 
 .flex-row {
     display: flex;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#under-construction {
+    width: 100%;
 }
 
 /* Media Queries Start*/
